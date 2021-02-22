@@ -12,9 +12,6 @@ public class Spring5JokesAppV2Application {
 
 		ApplicationContext ctx = SpringApplication.run(Spring5JokesAppV2Application.class, args);
 
-		JokeGeneratorController jokeGeneratorController = (JokeGeneratorController) ctx.getBean("jokeGeneratorController");
-		System.out.println("You having a laugh mate: " + jokeGeneratorController.tellMeAJoke());
-
 	}
 
 }
